@@ -1,17 +1,3 @@
-footer {
-  position: absolute;
-  width: 100%;
-  text-align:center;
-  p {
-    line-height:100px;
-  }
-  padding: 0 15px;
-  padding-top: 10px;
-  color: black;
-  .issues {
-      border-left: 1px black;
-  }
-}
 
 body {
   background-image:url('bg.png') !important;
@@ -45,6 +31,7 @@ body {
   .post-content {
     background: white;
     padding: 0 30px;
+    padding-top: 10px;
     width: 100%;
     padding-bottom: 50px;
   }
