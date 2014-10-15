@@ -1,2 +1,17 @@
- <h2><%= link_to_unless_current @post.title, @post %></h2>
- <%= simple_format @post.body %>
+<div class="post">
+  <div class="post-header"><br/>
+  </div>
+  <div class="post-content">
+    <center>
+      <h2><%= link_to_unless_current @post.title, @post %></h2>
+    </center>
+    <hr>
+    <small>
+      <p class="date">
+        <span class="ion-calendar"></span>
+        <%= @post.created_at.strftime("%d %b. %Y") %>
+      </p>
+    </small>
+    <div class="post-body"><%= @post.content %></div>
+  </div>
+</div>
