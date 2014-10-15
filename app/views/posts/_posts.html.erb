@@ -1,6 +1,12 @@
 <div id="posts">
   <% if @posts.count == 0 %>
-    <h1>I haven't posted anything yet :(</h1>
+    <div class="post">
+      <div class="post-header"><br/>
+      </div>
+      <div class="post-content">
+        <h1>I haven't posted anything yet :(</h1>
+      </div>
+    </div>
   <% end %>
   <% @posts.each do |post| %>
     <div class="post">
