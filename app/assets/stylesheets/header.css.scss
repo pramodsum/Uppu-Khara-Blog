@@ -56,10 +56,18 @@
   color: #FFFFFF;
 }
 
-.navbar {
+.navbar-nav {
   border-radius: 5px;
+  li {
+    margin-top: 5px;
+  }
   a {
-    color: white;
+    color: white !important;
+  }
+
+  li:hover, li:focus {
+    background: rgba(254, 206, 56, 0.9);
+    border-radius: 5px;
   }
 }
 
