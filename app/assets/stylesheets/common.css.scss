@@ -26,6 +26,13 @@ img {
   @extend .img-rounded;
 }
 
+#pinterest-widget span {
+  width:100%; overflow: hidden;
+}
+#pinterest-widget span span {
+  width:95%;
+}
+
 // h1, h2, h3, h4, h5, h6 {
 //   font-family: chalkboard;
 // }

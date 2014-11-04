@@ -60,8 +60,9 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  get '/photos', :to => 'pages#photos'
-  get '/archive', :to => 'pages#recipes'
+  # get '/photos', :to => 'pages#photos'
+  # get '/archive', :to => 'pages#recipes'
+  get '/pinterest', :to => 'pages#pinterest'
 
   get '/404', :to => 'errors#not_found'
   get '/500', :to => 'errors#internal_error'
