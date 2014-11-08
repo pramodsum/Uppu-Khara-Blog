@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     {{! Page Meta }}
-    <title>{{meta_title}} | SumNinjaCode</title>
+    <title>{{meta_title}} | UppuKhara</title>
     <meta name="description" content="{{meta_description}}" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -15,37 +15,19 @@
     <link rel="shortcut icon" href="https://s3-us-west-2.amazonaws.com/sumninjacode/img/favicon.ico">
 
     {{! Styles'n'Scripts }}
-    <link rel="stylesheet" type="text/css" href="{{asset "css/styles.css"}}" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Montserrat:400,700" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
 
-    {{! Everything else gets inserted here }}
-    {{> "header"}}
-    {{{body}}}
+    <div class="container">
+      {{> "header"}}
+      {{{body}}}
+    </div>
 
-
-    <footer>
-      <div class="container text-center">
-        <div class="row">
-          <blockquote>
-            <p>We don’t get a chance to do that many things, and every one should be really excellent. Because this is our life. Life is brief, and then you die, you know? And we’ve all chosen to do this with our lives. So it better be damn good. It better be worth it.</p>
-            <footer>Steve Jobs</footer>
-          </blockquote>
-        </div>
-        <div class="row"> 
-          <p class="pull-left">© {{date format="YYYY"}} Sumedha Pramod All Rights Reserved</p>
-          <ul class="pull-right list-inline">
-            <li><a href="https://github.com/pramodsum/SumNinjaCode/issues">#Issues</a></li>
-          </ul>
-        </div>
-      </div>
-      <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
-    </footer>
-    </footer>
+    {{> "footer"}}
 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
