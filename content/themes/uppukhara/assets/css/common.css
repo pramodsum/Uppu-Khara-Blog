@@ -6,12 +6,12 @@ body {
 
 @font-face {
     font-family: 'chalkboard';
-    src: url('chalkboardse-light-webfont.eot');
-    src: url('chalkboardse-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('chalkboardse-light-webfont.woff2') format('woff2'),
-         url('chalkboardse-light-webfont.woff') format('woff'),
-         url('chalkboardse-light-webfont.ttf') format('truetype'),
-         url('chalkboardse-light-webfont.svg#chalkboard_selight') format('svg');
+    src: url('../fonts/chalkboardse-light-webfont.eot');
+    src: url('../fonts/chalkboardse-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chalkboardse-light-webfont.woff2') format('woff2'),
+         url('../fonts/chalkboardse-light-webfont.woff') format('woff'),
+         url('../fonts/chalkboardse-light-webfont.ttf') format('truetype'),
+         url('../fonts/chalkboardse-light-webfont.svg#chalkboard_selight') format('svg');
     font-weight: normal;
     font-style: normal;
 

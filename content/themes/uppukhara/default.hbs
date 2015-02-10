@@ -16,14 +16,23 @@
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
+    <script>jQuery.noConflict();</script>
+    <script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.validate.js"></script>
+    <script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+</script>
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
-<script>jQuery.noConflict();</script>
-<script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.validate.js"></script>
-<script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form.js"></script>
 </head>
 <body class="{{body_class}}">
 
