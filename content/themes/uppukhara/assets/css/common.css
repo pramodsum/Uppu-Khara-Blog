@@ -1,5 +1,5 @@
 body {
-  background-image:url("https://s3-us-west-2.amazonaws.com/uppukhara/bg.png") !important;
+  background-image:url("../images/bg.png") !important;
   background-repeat:repeat;
   padding-top: 50px;
 }
