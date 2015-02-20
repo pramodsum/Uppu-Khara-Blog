@@ -11,6 +11,31 @@
 @import "modal.css";
 @import "recipe.css";
 
+@font-face {
+    font-family: 'coalhandlukecoalhandluketrial';
+    src: url('../fonts/CoalhandLuke TRIAL-webfont.eot');
+    src: url('../fonts/CoalhandLuke TRIAL-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CoalhandLuke TRIAL-webfont.woff2') format('woff2'),
+         url('../fonts/CoalhandLuke TRIAL-webfont.woff') format('woff'),
+         url('../fonts/CoalhandLuke TRIAL-webfont.ttf') format('truetype'),
+         url('../fonts/CoalhandLuke TRIAL-webfont.svg#coalhandlukecoalhandluketrial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'always_in_my_heartmedium';
+    src: url('../fonts/Always In My Heart-webfont.eot');
+    src: url('../fonts/Always In My Heart-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Always In My Heart-webfont.woff2') format('woff2'),
+         url('../fonts/Always In My Heart-webfont.woff') format('woff'),
+         url('../fonts/Always In My Heart-webfont.ttf') format('truetype'),
+         url('../fonts/Always In My Heart-webfont.svg#always_in_my_heartmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 .content{
@@ -35,11 +60,13 @@ img {
 
 h1.page-title {
   text-transform: capitalize;
-  font-family: bite___bulletmedium;
+  font-family: coalhandlukecoalhandluketrial;
   font-weight: bolder;
   font-size: 72px;
   letter-spacing: -4px;
-  background-color: #b41b14;
+  /*background-color: #b41b14;*/
   color: white;
+  text-shadow: 2px 2px black;
+  margin-bottom: -10px;
   padding-top: 10px;
 }
