@@ -58,6 +58,10 @@ img {
   height: auto;
 }
 
+body { 
+  font-size: 16px;
+}
+
 h1.page-title {
   text-transform: capitalize;
   font-family: coalhandlukecoalhandluketrial;
