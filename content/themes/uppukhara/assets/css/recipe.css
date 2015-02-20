@@ -10,6 +10,18 @@
     font-style: normal;
 }
 
+.post-body h1 {
+  background-color: #b41b14;
+  color: white;
+  padding: 10px;
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: bite___bulletmedium;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
 .post-body h2 {
   background-color: #fecf34;
   padding: 10px;
