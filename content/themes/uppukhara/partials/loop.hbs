@@ -10,7 +10,7 @@
     <div class="post-header"><br/></div>
     <div class="post-content">
         <center>
-            <h2><h2 class="post-title"><a href="{{url}}">{{title}}</`</h2>
+            <h2><h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
         </center>
         <hr>
         <small>
@@ -20,7 +20,7 @@
           </p>
         </small>
         <div class="post-body">
-            {{content}}
+            {{content words="50"}} <a href="{{url}}" title="{{title}}" class="more-link">Read&nbsp;more&nbsp;&rarr;</a></p>
         </div>
         <footer class="post-meta">
             {{> "tags"}}
