@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'bite___bulletmedium';
+    src: url('../fonts/Bite _ Bullet-webfont.eot');
+    src: url('../fonts/Bite _ Bullet-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Bite _ Bullet-webfont.woff2') format('woff2'),
+         url('../fonts/Bite _ Bullet-webfont.woff') format('woff'),
+         url('../fonts/Bite _ Bullet-webfont.ttf') format('truetype'),
+         url('../fonts/Bite _ Bullet-webfont.svg#bite___bulletmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.post-body h2 {
+  background-color: #fecf34;
+  padding: 10px;
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: bite___bulletmedium;
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+.post-body h4 {
+  color: #b41b14;
+}
+
+/*.post-title {
+  font-family: bite___bulletmedium;
+  font-weight: bolder;
+  font-size: 48px;
+  margin: 0;
+}*/
