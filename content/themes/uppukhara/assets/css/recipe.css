@@ -10,6 +10,10 @@
     font-style: normal;
 }
 
+.post-body {
+  font-size: 16px;
+}
+
 .post-body h1 {
   background-color: #b41b14;
   color: white;
@@ -35,6 +39,7 @@
 
 .post-body h4 {
   color: #b41b14;
+  font-size: 20px;
 }
 
 /*.post-title {
