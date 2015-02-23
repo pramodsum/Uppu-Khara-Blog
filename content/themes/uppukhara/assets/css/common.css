@@ -32,6 +32,11 @@ img {
   width:95%;
 }
 
-// h1, h2, h3, h4, h5, h6 {
-//   font-family: chalkboard;
-// }
+@import "animate.css";
+
+div.alert.alert-dismissible {
+  background-color: #222;
+  border-color: #080808;
+  border-radius: 5px;
+  color: white;
+}
