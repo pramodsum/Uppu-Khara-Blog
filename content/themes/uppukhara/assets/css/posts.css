@@ -17,3 +17,7 @@
 .post-body {
   word-wrap: break-word !important;
 }
+
+.post-title {
+  text-transform: uppercase;
+}

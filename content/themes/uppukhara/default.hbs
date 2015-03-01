@@ -30,12 +30,17 @@
 
     <div class="container">
       {{> "header"}}
-      {{{body}}}
+      {{!-- <div class="row">
+        <div class="col-xs-3">
+            {{> "sidebar"}}
+        </div>
+        <div class="col-xs-9"> --}}
+            {{{body}}}
+        {{!-- </div>
+      </div> --}}
     </div>
 
     {{> "footer"}}
-
-    {{> "subscribeModal" }}
 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
